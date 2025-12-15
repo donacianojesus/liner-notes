@@ -57,8 +57,8 @@ spring.datasource.password=
 spotify.client.id=
 spotify.client.secret=
 
-# Generate a secure JWT secret (256-bit recommended)
-jwt.secret=your-secure-secret-key-here
+# Generate a secure JWT secret
+jwt.secret=
 ```
 
 ### Step 3: Install Dependencies
