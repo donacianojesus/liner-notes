@@ -1,0 +1,4 @@
+package com.linernotes.integration;
+
+// External API integrations will be created here
+// Example: SpotifyClient (to fetch album metadata)

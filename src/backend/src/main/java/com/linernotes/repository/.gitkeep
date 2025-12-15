@@ -1,0 +1,4 @@
+package com.linernotes.repository;
+
+// JPA Repositories will be created here
+// Example: UserRepository, AlbumRepository, JournalEntryRepository, PublicPostRepository

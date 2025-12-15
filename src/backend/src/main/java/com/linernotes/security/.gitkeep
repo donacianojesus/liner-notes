@@ -1,0 +1,4 @@
+package com.linernotes.security;
+
+// JWT utilities and authentication logic will be created here
+// Example: JwtUtil, JwtAuthenticationFilter, UserDetailsServiceImpl

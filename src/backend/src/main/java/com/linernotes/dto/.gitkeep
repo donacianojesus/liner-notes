@@ -1,0 +1,4 @@
+package com.linernotes.dto;
+
+// Data Transfer Objects (DTOs) will be created here
+// Example: LoginRequest, RegisterRequest, JournalEntryDto, PublicPostDto

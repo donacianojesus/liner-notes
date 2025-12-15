@@ -1,0 +1,4 @@
+package com.linernotes.service;
+
+// Business logic services will be created here
+// Example: UserService, AuthService, JournalService, PublicPostService, SpotifyService
