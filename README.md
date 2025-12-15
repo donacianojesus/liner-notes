@@ -50,12 +50,12 @@ Edit `src/main/resources/application.properties`:
 
 ```properties
 # Update these values
-spring.datasource.username=your_postgres_username
-spring.datasource.password=your_postgres_password
+spring.datasource.username=
+spring.datasource.password=
 
-# Add your Spotify API credentials (get from https://developer.spotify.com/)
-spotify.client.id=your_spotify_client_id
-spotify.client.secret=your_spotify_client_secret
+# Add Spotify API credentials
+spotify.client.id=
+spotify.client.secret=
 
 # Generate a secure JWT secret (256-bit recommended)
 jwt.secret=your-secure-secret-key-here
@@ -161,13 +161,13 @@ java -jar target/liner-notes-backend-0.0.1-SNAPSHOT.jar
 ## Environment Variables (Production)
 
 ```bash
-SPRING_DATASOURCE_URL=jdbc:postgresql://your-rds-endpoint:5432/linernotes
-SPRING_DATASOURCE_USERNAME=your_username
-SPRING_DATASOURCE_PASSWORD=your_password
-SPRING_DATA_REDIS_HOST=your-redis-endpoint
-JWT_SECRET=your-production-secret
-SPOTIFY_CLIENT_ID=your_id
-SPOTIFY_CLIENT_SECRET=your_secret
+SPRING_DATASOURCE_URL=
+SPRING_DATASOURCE_USERNAME=
+SPRING_DATASOURCE_PASSWORD=
+SPRING_DATA_REDIS_HOST=
+JWT_SECRET=
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
 ```
 
 ## Troubleshooting
